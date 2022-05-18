@@ -154,7 +154,7 @@ Obviously, one could use an explicit, symbolic function of time:
 
 But often there is time-series data, such as measurement data from an experiment,
 we want to embed as data in the simulation of a PDE, or as a forcing function on
-the right-hand side of an ODE -- is it is the case here. For this, MTK allows to
+the right-hand side of an ODE -- as it is the case here. For this, MTK allows to
 "register" arbitrary Julia functions, which are excluded from symbolic
 transformations but are just used as-is. So, you could, for example, interpolate
 a given time series using
